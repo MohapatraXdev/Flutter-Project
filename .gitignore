@@ -1,0 +1,31 @@
+# Flutter/Dart/Pub related
+**/.dart_tool/
+**/.pub/
+**/build/
+
+# IntelliJ related
+.idea/
+
+# VS Code related
+.vscode/
+
+# macOS related
+.DS_Store
+
+# Windows related
+Thumbs.db
+
+# Linux related
+*~
+
+# Generated file
+*.log
+
+# Dart-specific
+.dart_tool/
+
+# Flutter-specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.flutter-versions
