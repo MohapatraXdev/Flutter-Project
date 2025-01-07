@@ -7,7 +7,7 @@ const endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatefulWidget {
   const GradientContainer(this.color1, this.color2, {super.key});
 
-  const GradientContainer.purple({super.key}) 
+  const GradientContainer.purple({super.key})
       : color1 = Colors.deepPurple,
         color2 = Colors.indigo;
 
@@ -40,12 +40,10 @@ class _GradientContainerState extends State<GradientContainer> {
       ),
       child: Center(
         child: DiceRoller(
-          activeDiceImage: activeDiceImage,
-          onRoll: rollDice,
-        ),
+            // activeDiceImage: activeDiceImage,
+            // onRoll: rollDice,
+            ),
       ),
     );
   }
 }
-
-
